@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/chethanakh/streem-large-file-node-js/issues"
   },
-  "homepage": "https://github.com/chethanakh/streem-large-file-node-js#readme"
+  "homepage": "https://github.com/chethanakh/streem-large-file-node-js#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mime-types": "^2.1.35",
+    "nodemon": "^3.1.0"
+  }
 }
